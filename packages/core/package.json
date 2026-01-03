@@ -22,8 +22,8 @@
     "url": "git+https://github.com/markfrommn/nestjs-query.git"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "prebuild": "npm run clean",
+    "prepublishOnly": "ppnpm run build",
+    "prebuild": "ppnpm run clean",
     "build": "tsc",
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
   },

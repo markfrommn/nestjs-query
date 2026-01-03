@@ -29,8 +29,8 @@
     "directory": "packages/query-graphql"
   },
   "scripts": {
-    "prepublishOnly": "pnpm run build",
-    "prebuild": "pnpm run clean",
+    "prepublishOnly": "ppnpm run build",
+    "prebuild": "ppnpm run clean",
     "build": "tsc",
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
   },

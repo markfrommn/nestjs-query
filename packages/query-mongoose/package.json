@@ -48,8 +48,8 @@
     "directory": "packages/query-typeorm-mongo"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "prebuild": "npm run clean",
+    "prepublishOnly": "pnpm run build",
+    "prebuild": "pnpm run clean",
     "build": "tsc -p tsconfig.json",
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
   },

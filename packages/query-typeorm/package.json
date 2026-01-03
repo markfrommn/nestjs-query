@@ -51,8 +51,8 @@
     "directory": "packages/query-typeorm"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "prebuild": "npm run clean",
+    "prepublishOnly": "pnpm run build",
+    "prebuild": "pnpm run clean",
     "build": "tsc",
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
   },
